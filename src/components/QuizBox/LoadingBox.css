@@ -1,0 +1,107 @@
+/* From Uiverse.io by Nawsome */ 
+.loader {
+    position: relative;
+    border-radius: 10px;
+    padding: 30px;
+    max-width: 500px;
+    background-color: #ffffff;
+    overflow: hidden;
+  }
+  
+  .loader:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: linear-gradient(110deg, rgba(227, 227, 227, 0) 0%, rgba(227, 227, 227, 0) 40%, rgba(227, 227, 227, 0.5) 50%, rgba(227, 227, 227, 0) 60%, rgba(227, 227, 227, 0) 100%);
+    animation: gradient-animation_2 1.2s linear infinite;
+  }
+  
+  .loader .wrapper {
+    width: 100%;
+    height: 100%;
+    position: relative;
+  }
+  
+  .loader .wrapper > div {
+    background-color: #cacaca;
+  }
+   .loader .button {
+    display: inline-block;
+    height: 32px;
+    width: 75px;
+  }
+     
+  .loader .line-4 {
+      
+    height: 10px;
+    width: 92%;
+  }
+     
+  .loader .line-3 {
+      
+    height: 10px;
+    width: 72%;
+  }
+  
+
+
+  /* From Uiverse.io by Nawsome */ 
+.option-loader {
+    position: relative;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 500px;
+    background-color: #ffffff;
+    overflow: hidden;
+  }
+  
+  .option-loader:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: linear-gradient(110deg, rgba(227, 227, 227, 0) 0%, rgba(227, 227, 227, 0) 40%, rgba(227, 227, 227, 0.5) 50%, rgba(227, 227, 227, 0) 60%, rgba(227, 227, 227, 0) 100%);
+    animation: gradient-animation_2 1.2s linear infinite;
+  }
+  
+  .option-loader .wrapper {
+    width: 100%;
+    height: 100%;
+    position: relative;
+  }
+  
+  .option-loader .wrapper > div {
+    background-color: #cacaca;
+  }
+   .option-loader .button {
+    display: inline-block;
+    height: 32px;
+    width: 75px;
+  }
+     
+  .option-loader .line-4 {
+      
+    height: 10px;
+    width: 92%;
+  }
+     
+  .option-loader .line-3 {
+      
+    height: 10px;
+    width: 52%;
+  }
+  
+  @keyframes gradient-animation_2 {
+    0% {
+      transform: translateX(-100%);
+    }
+  
+    100% {
+      transform: translateX(100%);
+    }
+  }
